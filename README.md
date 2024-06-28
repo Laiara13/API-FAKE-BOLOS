@@ -19,7 +19,7 @@ Caso queira utilizar minha API, apenas dê os devidos créditos por favor, e uti
 
 Com o Git e o Node.js instalado na sua maquina e a **URL** do projeto em mãos, cria em algum lugar do seu pc uma pasta para criarmos uma copia do repositório, dentro dela abra o **cmd** ou **powershell** e digite os comandos abaixo:
 ```
-git clone https://github.com/diegocandido/api-fake-blog.git
+git clone https://github.com/Laiara13/API-FAKE-BOLOS.git
 cd api-fake-blog
 npm install
 ```

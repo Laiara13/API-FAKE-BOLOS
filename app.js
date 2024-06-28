@@ -18,12 +18,12 @@ app.use(express.urlencoded({
 app.use('/img', express.static(__dirname + '/public/images'));
 
 
-//LISTAR TODAS AS POSTAGENS
+//LISTAR TODAS OS BOLOS
 app.get('/bolos', (req,res)=>{
     res.json(publicacoes)
 })
 1
-//LISTAR UMA POSTAGEM
+//LISTAR UM BOLO
 app.get('/bolo/:index', (req,res) =>{
     const { index } = req.params;
     return res.json(publicacoes[index])
