@@ -8,11 +8,11 @@ Fiz de forma autônoma, no caso, ele não exigiu mas quis abranger meus conhecim
 
 ## para listar TODAS as postagens dos bolos:
 
-https://api-fake-blog.onrender.com/bolos/
+https://api-fake-bolos.onrender.com/bolos/
 
 ## para listar UMA as postagens dos bolos:
 
-https://API-FAKE-BOLOS.onrender.com/bolo/1
+https://api-fake-bolos.onrender.com/bolos/1
 
 ## Clonando o Repositório ##
 Caso queira utilizar minha API, apenas dê os devidos créditos por favor, e utilize como quiser, espero que goste.
