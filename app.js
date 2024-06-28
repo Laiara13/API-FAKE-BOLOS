@@ -5,9 +5,11 @@ const app = express()
 app.use(cors())
 
 
+
 const port = process.env.PORT || 8080
 
-const { publicacoes } = require('./models/articles')
+
+const { bolos } = require('./models/articles')
 
 app.use(express.json())
 app.use(express.urlencoded({
@@ -15,18 +17,18 @@ app.use(express.urlencoded({
 }))
 
 
-app.use('/img', express.static(__dirname + '/public/images'));
+app.use('/img', express.static(__dirname + '/public/img'));
 
 
 //LISTAR TODAS OS BOLOS
 app.get('/bolos', (req,res)=>{
-    res.json(publicacoes)
+    res.json(bolos)
 })
-1
+
 //LISTAR UM BOLO
-app.get('/bolo/:index', (req,res) =>{
+app.get('/bolos/:index', (req,res) =>{
     const { index } = req.params;
-    return res.json(publicacoes[index])
+    return res.json(bolos[index])
 })
 
 

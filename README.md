@@ -12,7 +12,7 @@ https://api-fake-blog.onrender.com/bolos/
 
 ## para listar UMA as postagens dos bolos:
 
-https://api-fake-blog.onrender.com/bolo/1
+https://API-FAKE-BOLOS.onrender.com/bolo/1
 
 ## Clonando o Repositório ##
 Caso queira utilizar minha API, apenas dê os devidos créditos por favor, e utilize como quiser, espero que goste.

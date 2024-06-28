@@ -1,23 +1,15 @@
 {
-  "name": "api-fake-doceria",
+  "name": "primeira-api-fake",
   "version": "1.0.0",
-  "description": "MINHA PRIMEIRA API FAKE, PARA SITE DE DOCES, 270624",
+  "description": "primeira api fake utilizando express",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Laiara13/API-FAKE-BOLOS.git"
+    "start": "node app"
   },
   "author": "Laiara Leizer",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Laiara13/API-FAKE-BOLOS/issues"
-  },
-  "homepage": "https://github.com/Laiara13/API-FAKE-BOLOS#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "express": "^4.18.1"
   }
 }
