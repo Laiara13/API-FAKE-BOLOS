@@ -28,7 +28,7 @@ app.get('/bolos', (req,res)=>{
 //LISTAR UM BOLO
 app.get('/bolo/:index', (req,res) =>{
     const { index } = req.params;
-    return res.json(bolo[index])
+    return res.json(bolos[index])
 })
 
 
